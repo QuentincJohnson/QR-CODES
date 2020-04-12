@@ -116,7 +116,7 @@ body{
 .general{
   margin: 7rem;
 }
-.general > h1{
+.despair-title{
   font-size: 3rem;
   border-bottom: 2px solid var(--monokuma) ;
   margin-bottom: 1rem;
@@ -164,9 +164,31 @@ body{
   padding: 1rem;
   font-family: 'persona';
   font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
 }
 
 
+.mobile-foot{
+  display: none;
+}
+
+.contact{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.contact-fix{
+  margin: 4rem;
+  padding-bottom: 3rem;;
+}
+.person{
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+.links{
+  font-size: 3rem;
+}
 
 
 
