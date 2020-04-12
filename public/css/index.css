@@ -4,6 +4,12 @@
 :root{
   --monokuma: #e13c34;
 }
+
+@font-face {
+  font-family: 'persona';
+  src: url(../fonts/earwig\ factory\ rg.ttf);
+}
+
 body{
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
@@ -143,6 +149,21 @@ body{
   border-bottom: 4px solid white ;
   margin:0rem 8rem;
   padding-bottom: 1rem;
+}
+
+/* work experience */
+
+.title{
+  font-size: 3rem;
+  padding: 3rem;
+  padding-bottom: 0rem;
+  margin-top: -28rem;
+}
+
+.works{
+  padding: 1rem;
+  font-family: 'persona';
+  font-size: 3rem;
 }
 
 
