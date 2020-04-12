@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&family=Source+Serif+Pro:wght@400;700&display=swap');
+*{text-decoration: none;}
+
+:root{
+  --monokuma: #e13c34;
+}
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+
+.split{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/*.hope{
+
+}*/
+
+.despair{
+  background-color: black;
+  color: white;
+}
+
+.logo{
+  padding: 8rem;
+}
+
+.head{
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.head > li{
+  display: inline;
+  padding-left:1rem;
+  padding-right:1rem;
+  margin: 0rem 2rem;
+  border-bottom: 4px solid var(--monokuma);
+}
+
+/* intro================ */
+
+/* about */
+.intro{
+  margin-top: 14rem;
+  text-align: center;
+}
+
+.intro > h1{
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.intro > span{
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.about{
+  text-align: center;
+  margin: 3rem;
+}
+
+.about > h1{
+  font-size: 3rem;
+  padding: 3rem;
+  padding-bottom: 0rem;
+}
+.mono-under{
+  background-color: var(--monokuma);
+  height: 1.5rem;
+  border: 4px solid black;
+  margin: 0rem 12rem;
+}
+.about > p{
+  margin: 2.5rem;
+  margin-top: 5rem;
+  font-weight: 300;
+  font-size: 1.8rem;
+  border: 2px solid black;
+  padding: 3rem
+}
+
+.education{
+  text-align:center;
+}
+
+.education > h1{
+  font-size: 2rem;
+  border-bottom: 2px solid black;
+  margin: 0rem 10rem;
+}
+.education > h2{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.education > span{  
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+.education > div{
+  font-size: 1.2rem;
+}
+
+/* Skills */
+
+.general{
+  margin: 7rem;
+}
+.general > h1{
+  font-size: 3rem;
+  border-bottom: 2px solid var(--monokuma) ;
+  margin-bottom: 1rem;
+  padding-bottom: 5.5rem;
+}
+.skill-list{
+  line-height: 2.5rem;
+  display: block; 
+  list-style-type: square;
+  margin-top: 1em; 
+  margin-left: 1.5rem; 
+  margin-right: 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+.detailed{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 7rem;
+  margin-top:2rem;
+}
+.detailed > div > h1{
+  font-size: 1.3rem;
+  border-bottom: 2px solid var(--monokuma);
+  margin: 0.8rem;
+}
+
+.tool{
+  font-size: 3rem;
+  border-bottom: 4px solid white ;
+  margin:0rem 8rem;
+  padding-bottom: 1rem;
+}
+
+
+
+
+
+
