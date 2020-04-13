@@ -40,6 +40,10 @@ body{
   padding-top: 1.5rem;
 }
 
+.mobile-head{
+  display:none;
+}
+
 .head > li{
   display: inline;
   padding-left:1rem;
@@ -192,6 +196,64 @@ body{
 }
 .desk-foot{
   margin-bottom: 3rem;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .split{
+    display: block;
+  }
+  .head{
+    display:none;
+  }
+  .mobile-head{
+    display:block;
+  }
+  .desk-foot{
+    display: none;
+  }
+  .mobile-head{
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    padding-top: 1.5rem;
+  }
+  .mobile-head > ul > li{
+    display: inline;
+    padding-left:1rem;
+    padding-right:1rem;
+    margin: 0rem 2rem;
+    border-bottom: 4px solid var(--monokuma);
+  }
+  .logo{
+    padding-top: 5rem;
+    margin-bottom: -8rem;
+  }
+  .about > h1{
+    font-size: 2rem;
+  }
+  .about > p{
+    font-size: 1.5rem
+  }
+  .title{
+    margin-top: 2rem
+  }
+  .intro{
+    padding: 3rem 0rem;
+  }
+  .mobile-fix{
+    padding: 0.3rem 0rem;
+  }
+  .detailed{
+    display: block;
+    margin: 2rem 2rem
+  }
+  .education{
+    margin-bottom: 2rem;
+  }
+  .pad-fix{
+    padding-bottom: 2rem;
+  }
 }
 
 
