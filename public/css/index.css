@@ -30,7 +30,7 @@ body{
 }
 
 .logo{
-  padding: 8rem;
+  padding: 2vh 2vw;
 }
 
 .head{
@@ -52,13 +52,13 @@ body{
 
 /* about */
 .intro{
-  margin-top: 14rem;
+  margin-top: 30vh;
   text-align: center;
 }
 
 .intro > h1{
   font-size: 4rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1em;
 }
 
 .intro > span{
@@ -79,11 +79,10 @@ body{
   background-color: var(--monokuma);
   height: 1.5rem;
   border: 4px solid black;
-  margin: 0rem 12rem;
+  margin: 0rem 10vw;
+  margin-bottom: 13vh;
 }
 .about > p{
-  margin: 2.5rem;
-  margin-top: 5rem;
   font-weight: 300;
   font-size: 1.8rem;
   border: 2px solid black;
@@ -97,7 +96,8 @@ body{
 .education > h1{
   font-size: 2rem;
   border-bottom: 2px solid black;
-  margin: 0rem 10rem;
+  margin: 0vh 4vw;
+
 }
 .education > h2{
   font-weight: bold;
@@ -114,11 +114,13 @@ body{
 /* Skills */
 
 .general{
-  margin: 7rem;
+  margin-top: 7rem;
+  padding: 0vw 5vw;
 }
 .despair-title{
   font-size: 3rem;
   border-bottom: 2px solid var(--monokuma) ;
+  margin: 0rem 8vw;
   margin-bottom: 1rem;
   padding-bottom: 5.5rem;
 }
@@ -126,29 +128,28 @@ body{
   line-height: 2.5rem;
   display: block; 
   list-style-type: square;
+  padding-left: 2rem;
   margin-top: 1em; 
-  margin-left: 1.5rem; 
-  margin-right: 1.5rem;
   font-size: 1.5rem;
   color: white;
+  margin-bottom: 4rem;
 }
 .detailed{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 7rem;
-  margin-top:2rem;
+  margin-top:4rem;
 }
 .detailed > div > h1{
   font-size: 1.3rem;
   border-bottom: 2px solid var(--monokuma);
-  margin: 0.8rem;
+  margin: 0vh 2vw
 }
 
 .tool{
   font-size: 3rem;
   border-bottom: 4px solid white ;
-  margin:0rem 8rem;
   padding-bottom: 1rem;
+  margin: 0vh 5vw;
 }
 
 /* work experience */
@@ -157,7 +158,7 @@ body{
   font-size: 3rem;
   padding: 3rem;
   padding-bottom: 0rem;
-  margin-top: -28rem;
+  margin-top: -38vh;
 }
 
 .works{
@@ -192,6 +193,9 @@ body{
 .desk-foot{
   margin-bottom: 3rem;
 }
+
+
+
 
 
 
