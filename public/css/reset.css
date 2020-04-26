@@ -196,3 +196,7 @@ button, [type="button"], [type="submit"] {
   display: block;
   clear: both;
 }
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}

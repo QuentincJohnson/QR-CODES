@@ -30,7 +30,9 @@ body{
 }
 
 .logo{
-  padding: 2vh 2vw;
+  color: black;
+  padding: 5vh 5vw;
+  padding-top: 4remx
 }
 
 .head{
@@ -173,6 +175,10 @@ body{
   margin-bottom: 3rem;
 }
 
+.works > li:hover{
+  font-size: 3.5rem;
+}
+
 
 .mobile-foot{
   display: none;
@@ -196,6 +202,11 @@ body{
 }
 .desk-foot{
   margin-bottom: 3rem;
+}
+
+.designW{
+  border: 2px solid black;
+  margin: 0% 22.5%;
 }
 
 
